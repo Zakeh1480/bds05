@@ -14,6 +14,6 @@ public class GenreTests {
 	
 		Assertions.assertNotNull(entity.getId());
 		Assertions.assertNotNull(entity.getName());
-		Assertions.assertEquals(0, entity.getMovies().size());
+		Assertions.assertEquals(0, entity.getMovie().size());
 	}
 }
